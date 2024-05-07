@@ -3,12 +3,7 @@ import "./App.css";
 import routes from "./Routes/router";
 
 function App() {
-  return (
-    <Router>{routes}</Router>
-    // <div>
-    //   <p>Hello World</p>
-    // </div>
-  );
+  return <Router>{routes}</Router>;
 }
 
 export default App;
