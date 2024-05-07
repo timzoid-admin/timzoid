@@ -1429,7 +1429,7 @@ border: none;
     }
     .bg_img{
         width: 100%;
-         height: 448.82px;
+         height: 430.82px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -1446,7 +1446,7 @@ border: none;
          position: absolute;
          /* height: auto; */
          width: 100%;
-         top: -40px;
+         top: -57px;
          height: 494.82px;
          /* margin-top: 30px; */
      }
@@ -2999,7 +2999,7 @@ padding-bottom: 10px;
          position: absolute;
          /* height: auto; */
          width: 100%;
-         top: -55px;
+         top: -70px;
          height: 494.82px;
          /* margin-top: 30px; */
      }
@@ -3264,7 +3264,7 @@ text-align: center;
     .bg_img  img{
          position: absolute;
           width: 100%;
-         top: -50px;
+         top: -65px;
          height: 390.82px;
       }
       .bg_texts h2{
@@ -3724,7 +3724,7 @@ text-align: left;
    .bg_img  img{
     position: absolute;
      width: 100%;
-    top: -20px;
+    top: -38px;
     height: 300.82px;
  }
  .bg_texts h2{
@@ -4109,6 +4109,24 @@ margin-top: -6px;
         width: 100%;
         height: auto;
       }
+      .bg_img{
+        width: 100%;
+        height: 265px;
+        display: flex;
+        /* margin-top: 100px; */
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+         background-image:url("../assests/bgs.svg");
+        background-position: center;
+        background-size: cover;
+     }
+       .bg_img  img{
+        position: absolute;
+         width: 100%;
+        top: -36px;
+        height: 300.82px;
+     }
 }
 
 @media(max-width:420px) {
@@ -4131,7 +4149,7 @@ margin-top: -6px;
    }
     .bg_img{
         width: 100%;
-        height: 249px;
+        height: 230px;
         display: flex;
         /* margin-top: 100px; */
         justify-content: center;
@@ -4144,7 +4162,7 @@ margin-top: -6px;
        .bg_img  img{
         position: absolute;
          width: 100%;
-        top: -20px;
+        top: -36px;
         height: 270.82px;
      }
     
@@ -4284,7 +4302,7 @@ background: transparent;
    }
     .bg_img{
         width: 100%;
-        height: 239px;
+        /* height: 239px; */
         display: flex;
         /* margin-top: 100px; */
         justify-content: center;
@@ -4294,12 +4312,12 @@ background: transparent;
         background-position: center;
         background-size: cover;
      }
-       .bg_img  img{
+       /* .bg_img  img{
         position: absolute;
          width: 100%;
         top: -20px;
         height: 270.82px;
-     }
+     } */
      .bg_container{
         display: flex;
         justify-content: center;
@@ -4394,7 +4412,7 @@ background: transparent;
    }
     .bg_img{
         width: 100%;
-        height: 229px;
+        height: 210px;
         display: flex;
         /* margin-top: 100px; */
         justify-content: center;
@@ -4407,7 +4425,7 @@ background: transparent;
        .bg_img  img{
         position: absolute;
          width: 100%;
-        top: -20px;
+        top: -36px;
         height: 250.82px;
      }
      .primeSliderHead {
@@ -4547,7 +4565,7 @@ text-align: center;
    }
     .bg_img{
         width: 100%;
-        height: 200px;
+        height: 180px;
         display: flex;
          justify-content: center;
         flex-wrap: wrap;
@@ -4559,7 +4577,7 @@ text-align: center;
        .bg_img  img{
         position: absolute;
          width: 100%;
-        top: -20px;
+        top: -36px;
         height: 220.82px;
      }
     ul{
@@ -4675,7 +4693,7 @@ text-align: center;
    }
     .bg_img{
         width: 100%;
-        height: 200px;
+        /* height: 150px; */
         display: flex;
          justify-content: center;
         flex-wrap: wrap;
@@ -4684,12 +4702,12 @@ text-align: center;
         background-position: center;
         background-size: cover;
      }
-       .bg_img  img{
+       /* .bg_img  img{
         position: absolute;
          width: 100%;
-        top: -20px;
+        top: -30px;
         height: 220.82px;
-     }
+     } */
     .bg_texts h2{
         font-family: SF Pro;
         width: 253px;
@@ -4817,7 +4835,7 @@ text-align: center;
    }
     .bg_img{
         width: 100%;
-        height: 178px;
+        height: 168px;
         display: flex;
          justify-content: center;
         flex-wrap: wrap;
@@ -4829,7 +4847,7 @@ text-align: center;
        .bg_img  img{
         position: absolute;
          width: 100%;
-        top: -20px;
+        top: -35px;
         height: 210.82px;
      }
      .icons{
@@ -4972,7 +4990,7 @@ gap: 4px;
 }
 .bg_img{
     width: 100%;
-    height: 174px;
+    height: 159px;
     display: flex;
      justify-content: center;
     flex-wrap: wrap;
@@ -4984,7 +5002,7 @@ gap: 4px;
    .bg_img  img{
     position: absolute;
      width: 100%;
-    top: -20px;
+    top: -36px;
     height: 203.82px;
  }
  .banner1_h2 h2{
@@ -5037,7 +5055,7 @@ text-align: center;
     }
     .bg_img{
         width: 100%;
-        height: 157px;
+        height: 142px;
         display: flex;
          justify-content: center;
         flex-wrap: wrap;
@@ -5049,7 +5067,7 @@ text-align: center;
        .bg_img  img{
         position: absolute;
          width: 100%;
-        top: -20px;
+        top: -36px;
         height: 180.82px;
      }
      .banner1_h2{
@@ -5125,7 +5143,34 @@ line-height: 1.1rem;
  /* line-height: 30px; */
   }
 }
+@media(max-width:266px) {
+
+   .bg_img  img{
+    position: absolute;
+     width: 100%;
+    top: -20px;
+    height: 184.92px;
+ }
+}
    @media(max-width:260px) {
+      .bg_img{
+    width: 100%;
+    height: 92px;
+    display: flex;
+     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+     background-image:url("../assests/bgs.svg");
+    background-position: center;
+    background-size: cover;
+ }
+ 
+ .bg_img  img{
+  position: absolute;
+   width: 100%;
+  top: -20px;
+  height: 114.92px;
+}
     .selections{
            gap: 10px;
            position: absolute;
@@ -5177,23 +5222,7 @@ text-align: left;
     border-radius: 4px ;
      margin-left: 12px;
 }
-.bg_img{
-    width: 100%;
-    height: 108px;
-    display: flex;
-     justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-     background-image:url("../assests/bgs.svg");
-    background-position: center;
-    background-size: cover;
- }
-   .bg_img  img{
-    position: absolute;
-     width: 100%;
-    top: -20px;
-    height: 130.82px;
- }
+
  
 .head_container{
     /* width: 100%; */

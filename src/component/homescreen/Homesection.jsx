@@ -37,7 +37,7 @@ import { BsArrowRight } from 'react-icons/bs';
             
             
             <div className="bg_img">
-             <img src={heropage} alt='hero ' className='imgs'/>
+             <img src={heropage} alt='hero '/>
             </div>
             
         </div>
