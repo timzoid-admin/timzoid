@@ -4,7 +4,6 @@ import Lottie from 'react-lottie';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { motion } from 'framer-motion';
-import "../../styles/Mains.css";
 
 const flashcards = [
   { name: 'Enhance customer experience.',  Contents: 'Elevate every interaction and delight your customers with seamless experiences.', animationData: require('../../assests/anime/real.json') },
