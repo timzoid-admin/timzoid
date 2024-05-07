@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../styles/Mains.css"
+
 import { Link } from 'react-router-dom';
  import heropage from "../../assests/3d-rendering-biorobots-concept 1.svg"
 import { Ads } from '../ads/Sponspers';
@@ -10,6 +10,7 @@ import { BsArrowRight } from 'react-icons/bs';
  import { Banner1 } from './../Banner/Banner1';
 import { Header } from '../header/Header';
 import { Footer } from '../Footer/Footer';
+
 
   
  export  const Homesection = () => {
