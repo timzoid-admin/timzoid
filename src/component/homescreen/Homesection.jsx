@@ -15,10 +15,10 @@ import { Footer } from '../Footer/Footer';
  export  const Homesection = () => {
   return (
     <>
-    <div>
+    <section>
         <Header/>
-    </div>
-    <div className="bg_full">
+    </section>
+    <section className="bg_full">
         <div className="bg_container">
             <div className="top_bg">
                 <span>1,000+ TRUSTED BUSINESSES</span>
@@ -46,26 +46,26 @@ import { Footer } from '../Footer/Footer';
             </div>
             
         </div>
-    </div>
-    <div>
+    </section>
+    <section>
         <Ads/>
-    </div>
-    <div>
+    </section>
+    <section>
         <PrimeSlider/>
-    </div>
-    <div>
+    </section>
+    <section>
         <Services/>
-        </div> 
+        </section> 
 
-        <div>
+        <section>
             <Banner1/>
-        </div>
-        <div>
+        </section>
+        <section>
             <Banner2/>
-        </div>
-        <div>
+        </section>
+        <section>
       <Footer/>
-    </div>
+    </section>
     </>
   )
 }
