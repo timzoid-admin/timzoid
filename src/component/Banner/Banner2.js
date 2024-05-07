@@ -1,8 +1,7 @@
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import banner from "../../assests/banner/internet security or cyber security.svg"
-import shadow from "../../assests/banner/banner_shadow.svg"
-import { Link } from 'react-router-dom'
+ import { Link } from 'react-router-dom'
 const Banner2 = () => {
   return (
     <>

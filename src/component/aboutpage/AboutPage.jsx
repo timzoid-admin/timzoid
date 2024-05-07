@@ -26,9 +26,9 @@ export const AboutPage = () => {
         <div className='about_us_container'>
           <div className='h2_p'>
             <div className='about_h2'>
-             <img src={arrowLe} alt='arrow'/>
+             <img src={arrowLe} className='arr' alt='arrow'/>
             <h2>WHO WE ARE</h2>
-            <img src={arrowRi} alt='arrow'/>
+            <img src={arrowRi} className='arr' alt='arrow'/>
             </div>
             <p>With over 2 decades of experience in the innovative technology space, we are committed to providing innovative solutions that address pressing challenges across industries. Timzoid Limited is a technology solution company poised to revolutionize operations in various sectors including Fintech, Oil & Gas, Construction, Government, Human Resources, E-commerce and others enabling them to offer better services to their new and existing customers.
               <br className='spaced'/>

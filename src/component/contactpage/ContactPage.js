@@ -42,9 +42,10 @@ const ContactPage = () => {
         </div>
         <div className='right_sideContact'>
           <div className='rightside_container'>
-          <div className='contact_arrow'><img src={arrowLe} alt='arrow'/>
+          <div className='contact_arrow'>
+            <img src={arrowLe} alt='arrow' className='arr'/>
             <h2>SUPPORT</h2>
-            <img src={arrowRi} alt='arrow'/></div>
+            <img src={arrowRi} className='arr' alt='arrow'/></div>
             <form>
               
               <label>Full Name</label>
