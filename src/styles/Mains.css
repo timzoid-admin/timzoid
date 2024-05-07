@@ -131,7 +131,6 @@ height: 40px;
 gap: 10px;
 border-radius: 6px;
 border: 1px 0px 0px 0px;
-opacity: 0px;
 background: transparent;
 border: 1px solid #174050;
 }
@@ -160,8 +159,7 @@ border: 1px solid #174050;
     width: 124px;
 height: 36px;
 gap: 12px;
-opacity: 0px;
-padding:0 10px;
+ padding:0 10px;
 
 }
 
@@ -187,8 +185,7 @@ height: 36px;
 padding: 8.4px 6.95px 9.4px 7.2px;
 gap: 0px;
 border-radius: 50%;
-opacity: 0px;
-background: #DAF2FC;
+ background: #DAF2FC;
 font-size: 18px;
 
 }
@@ -219,8 +216,7 @@ align-items: center;
 padding: 6px 24px 6px 10px;
 gap: 10px;
 border-radius: 4px 0px 0px 0px;
-opacity: 0px;
-background: #DAF2FC66;
+ background: #DAF2FC66;
 
 }
 .top_bg span{
@@ -289,8 +285,7 @@ height:  44px;
 padding: 10px 24px 10px 24px;
 gap: 10px;
 border-radius: 6px;
-opacity: 0px;
-background: rgba(23, 64, 80, 1);
+ background: rgba(23, 64, 80, 1);
 border: none;
 color: #fff;
 }
@@ -298,8 +293,7 @@ color: #fff;
 background: rgba(23, 64, 80, 1);
 /* gap: 10px; */
 border-radius: 6px;
-opacity: 0px;
- border: none;
+  border: none;
  font-size: 15px;
 color: #fff;
 }
@@ -310,8 +304,7 @@ height: 15.96px;
 top: 18.7px;
 left: 20px;
 gap: 0px;
-opacity: 0px;
-color: rgba(255, 255, 255, 1);
+ color: rgba(255, 255, 255, 1);
 
 }
 
@@ -364,7 +357,6 @@ color: rgba(255, 255, 255, 1);
      align-items: center;
     padding: 6px 24px 6px 10px;
      border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
     background: #DAF2FC66;
  }
 .ads_bg .ads_container .top_bg span {
@@ -384,8 +376,7 @@ color: rgba(255, 255, 255, 1);
     width: 871.41px;
     height: 153.45px;
     gap: 56.92px;
-    opacity: 0px;
-    flex-wrap: wrap;
+     flex-wrap: wrap;
     align-items: center;
 }
 .ads_img img{
@@ -414,8 +405,7 @@ color: rgba(255, 255, 255, 1);
       justify-content: center;
       flex-direction: column;
       align-items: start;
-    opacity: 0px;
-    padding-left: 100px;
+     padding-left: 100px;
     padding-right: 100px;
     padding-top: 100px;
     text-align: left;
@@ -430,8 +420,7 @@ color: rgba(255, 255, 255, 1);
     padding: 6px 24px 6px 10px;
     gap: 10px;
     border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
-    background: #DAF2FC66;
+     background: #DAF2FC66;
      margin-left: 22px;
 }
 .primeSlide_Content span{
@@ -452,8 +441,7 @@ background-image: radial-gradient(62.83% 62.83% at 37.17% 50%, #44C0EF 0%, #276E
     width: 550px;
 height: 92px;
 gap: 0px;
-opacity: 0px;
- }
+  }
 .primeSliderHead h3{
      font-family: "SF Pro";
     font-size: 32px;
@@ -472,8 +460,7 @@ opacity: 0px;
     width: 477px;
 height: 96px;
 gap: 0px;
-opacity: 0px;
-
+ 
     margin-left: 19px;
 }
 .primeSliderP p{
@@ -520,8 +507,7 @@ text-align: left;
 /* width: 250px; */
 height:88px;
 gap: 16px;
-opacity: 0px;
-
+ 
   }
   .Contents h3{
  font-family: "SF Pro";
@@ -576,8 +562,7 @@ text-align: left;
  align-items: center;
  flex-direction: column;
 gap: 16px;
-opacity: 0px;
-padding-bottom: 50px;
+ padding-bottom: 50px;
 }
   .service_head h3{
 font-family: "SF Pro";
@@ -616,8 +601,7 @@ flex-direction: column;
 background: #fff;
 border-radius: 10px 0px 0px 0px;
 box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.74);
- opacity: 0px;
- border: 1px solid rgba(23, 64, 80, 0.07) 
+  border: 1px solid rgba(23, 64, 80, 0.07) 
  }
  .service_box img{
  width: 32px;
@@ -701,8 +685,7 @@ color: rgba(35, 31, 32, 0.7);
     width: 597px;
 height: 72px;
 gap: 0px;
-opacity: 0px;
-
+ 
  font-family: "SF Pro";
 font-size: 14px;
 font-weight: 400;
@@ -741,8 +724,7 @@ text-align: center;
 height: 521px;
 margin: auto;
 gap: 0px;
- opacity: 0px;
-background: rgba(218, 242, 252, 0.5);
+ background: rgba(218, 242, 252, 0.5);
 position: relative;
 box-shadow: 0px 14px 0px 0px rgb(0, 0, 0);
 border-bottom-left-radius: 10px;
@@ -793,8 +775,7 @@ height:48px;
 padding: 12px 32px 12px 32px;
 gap: 10px;
 border-radius: 6px;
- opacity: 0px;
- display: flex;
+  display: flex;
  justify-content: space-around;
  align-items: center;
  color: #000;
@@ -830,8 +811,7 @@ border: 1.5px solid rgba(23, 64, 80, 1)
 .footer_sub{
     width: 217px;
 gap: 0px;
-opacity: 0px;
-
+ 
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -840,8 +820,7 @@ opacity: 0px;
     width: 206px;
     object-fit: contain;
 gap: 0px;
-opacity: 0px;
-
+ 
 }
 
 .footer_sub p{
@@ -856,8 +835,7 @@ text-align: left;
     width:65px;
 /* height: 18px; */
 gap: 32px;
-opacity: 0px;
-/* justify-content: center; */
+ /* justify-content: center; */
 
     display: flex;
     flex-direction: column;
@@ -884,8 +862,7 @@ opacity: 0px;
     justify-content: center;
 /* height:118px; */
 gap: 32px;
-opacity: 0px;
-
+ 
 }
 .legal h3{
     font-weight: bold;
@@ -902,8 +879,7 @@ opacity: 0px;
     width: 245px;
 /* height: 66px; */
 gap: 20px;
-opacity: 0px;
-justify-content: center;
+ justify-content: center;
 
     display: flex;
     flex-direction: column;
@@ -929,8 +905,7 @@ padding-bottom: 10px;
 
  .copyright div p {
  gap: 0px;
-  opacity: 0px;
- font-family: "SF Pro";
+  font-family: "SF Pro";
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -949,8 +924,7 @@ height: 29.8px;
 padding: 7.45px;
 gap: 0px;
 border-radius: 50px;
-opacity: 0px;
-background: rgba(218, 242, 252, 1);
+ background: rgba(218, 242, 252, 1);
 
  }
 
@@ -990,8 +964,7 @@ align-items: center;
 padding: 6px 14px 6px 10px;
 gap: 10px;
 border-radius: 4px 0px 0px 0px;
-opacity: 0px;
-background: #DAF2FC66;
+ background: #DAF2FC66;
 display: flex;
 justify-content: center;
 margin-bottom: 20px;
@@ -1020,8 +993,7 @@ text-align: center;
 width: 727px;
 height: 90px;
 gap: 0px;
-opacity: 0px;
-
+ 
 }
 
 /* about_us */
@@ -1064,8 +1036,7 @@ color: rgba(23, 64, 80, 1);
   width:562px;
 height:510px;
 gap: 16px;
-opacity: 0px;
-
+ 
 }
 .h2_p p{
 color: rgba(35, 31, 32, 1);
@@ -1088,8 +1059,7 @@ left: 786px;
 gap: 0px;
 border-radius: 20px 0px 20px 0px;
 border: 6px 0px 0px 0px;
-opacity: 0px;
-border: 6px solid rgba(23, 64, 80, 1)
+ border: 6px solid rgba(23, 64, 80, 1)
 
 }
 
@@ -1125,8 +1095,7 @@ border: 6px solid rgba(23, 64, 80, 1)
   padding: 6px 14px 6px 10px;
   gap: 10px;
   border-radius: 4px;
-  opacity: 0px;
-  background: #DAF2FC66;
+   background: #DAF2FC66;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -1179,8 +1148,7 @@ padding: 10px;
 gap: 20px;
 border-radius: 4px;
 border: 0.5px solid rgba(23, 64, 80, 1);
-opacity: 0px;
-font-family: "SF Pro";
+ font-family: "SF Pro";
 font-size: 12px;
 align-items: center;
 font-weight: 400;
@@ -1201,8 +1169,7 @@ background: transparent;
   height: 16px;
   padding: 0.67px 0.67px 1.33px 1.33px;
   gap: 0px;
-  opacity: 0px;
-  
+   
 }
 
 .right_sideContact{
@@ -1219,8 +1186,7 @@ background: transparent;
 gap: 0px;
 border-radius: 16px;
 border: 1px 0px 0px 0px;
-opacity: 0px;
-background: rgba(255, 255, 255, 1);
+ background: rgba(255, 255, 255, 1);
 border: 1px solid rgba(218, 242, 252, 1);
 box-shadow: 0px 2px 8px 0px rgba(52, 146, 182, 0.08);
 padding: 30px 20px ;
@@ -1230,8 +1196,7 @@ padding: 30px 20px ;
 .contact_arrow{
 gap: 18px;
 display: flex;
-opacity: 0px;
-justify-content: center;
+ justify-content: center;
 padding: 6px 14px 6px 10px;
 color: rgba(23, 64, 80, 1);
 }
@@ -1240,7 +1205,6 @@ color: rgba(23, 64, 80, 1);
 .rightside_container  form {
 padding: 20px;
 gap: 22px;
-opacity: 0px;
 display: flex;
 flex-direction: column;
 
@@ -1253,7 +1217,6 @@ padding: 16px 10px 16px 16px;
 gap: 10px;
 border-radius: 6px;
 border: 1px solid rgba(209, 209, 209, 1);
-opacity: 0px;
 outline: none;
 }
 .rightside_container form label{
@@ -1273,7 +1236,6 @@ padding: 16px 10px 16px 16px;
 gap: 10px;
 border-radius: 6px 0px 0px 0px;
 border: 1px solid rgba(209, 209, 209, 1);
-opacity: 0px;
 outline: none;
 
 }
@@ -1284,7 +1246,6 @@ background: rgba(23, 64, 80, 1);
 padding: 6px 12px 6px 12px;
 gap: 4px;
 border-radius: 6px;
-opacity: 0px;
 color: rgba(255, 255, 255, 1);
  font-family:" SF Pro";
 font-size: 18px;
@@ -1323,8 +1284,7 @@ border: none;
     padding: 6px 24px 6px 10px;
     gap: 10px;
     border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
-    background: #DAF2FC66;
+        background: #DAF2FC66;
     
     }
     .top_bg span{
@@ -1375,7 +1335,7 @@ border: none;
     color: rgba(35, 31, 32, 1);
     
     }
-    /* .btns {
+    .btns {
      font-family: SF Pro;
     font-size: 20px;
     font-weight: bold;
@@ -1391,16 +1351,15 @@ border: none;
     padding: 10px 24px 10px 24px;
     gap: 10px;
     border-radius: 6px;
-    opacity: 0px;
-    background: rgba(23, 64, 80, 1);
+        background: rgba(23, 64, 80, 1);
     border: none;
     color: #fff;
-    } */
+    }
     .btns  button{
     background: rgba(23, 64, 80, 1);
-     border-radius: 6px;
-    opacity: 0px;
-     border: none;
+    /* gap: 10px; */
+    border-radius: 6px;
+         border: none;
      font-size: 15px;
     color: #fff;
     }
@@ -1411,8 +1370,7 @@ border: none;
     top: 18.7px;
     left: 20px;
     gap: 0px;
-    opacity: 0px;
-    color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 1);
     
     }
     /* bg image */
@@ -1473,8 +1431,7 @@ border: none;
           justify-content: center;
           flex-direction: column;
           align-items: start;
-        opacity: 0px;
-        /* padding-left: 20px;
+                /* padding-left: 20px;
         padding-right: 20px; */
         padding-top: 100px;
         text-align: left;
@@ -1487,8 +1444,7 @@ border: none;
     width:412px;
   height:570px;
   gap: 6px;
-  opacity: 0px;
-  
+    
   }
   .h2_p p{
   color: rgba(35, 31, 32, 1);
@@ -1528,8 +1484,7 @@ border: none;
         width: 100%;
     height: 521px;
      gap: 0px;
-     opacity: 0px;
-    background: rgba(218, 242, 252, 0.5);
+         background: rgba(218, 242, 252, 0.5);
     position: relative;
        }
     
@@ -1576,8 +1531,7 @@ border: none;
     padding: 12px 32px 12px 32px;
     gap: 10px;
     border-radius: 6px;
-     opacity: 0px;
-     display: flex;
+          display: flex;
      justify-content: space-around;
      align-items: center;
     background: transparent;
@@ -1594,16 +1548,14 @@ border: none;
     gap: 0px;
     border-radius: 20px 0px 20px 0px;
     border: 6px 0px 0px 0px;
-    opacity: 0px;
-    border: 6px solid rgba(23, 64, 80, 1)
+        border: 6px solid rgba(23, 64, 80, 1)
     
     }
     .h2_p{
       width:440px;
     height:400px;
     gap: 0px;
-    opacity: 0px;
-    
+        
     }
     .h2_p p{
       color: rgba(35, 31, 32, 1);
@@ -1650,8 +1602,7 @@ border: none;
         width: 100%;
     height: 521px;
      gap: 0px;
-     opacity: 0px;
-    background: rgba(218, 242, 252, 0.5);
+         background: rgba(218, 242, 252, 0.5);
     position: relative;
        }
     
@@ -1698,8 +1649,7 @@ border: none;
     padding: 12px 32px 12px 32px;
     gap: 10px;
     border-radius: 6px;
-     opacity: 0px;
-     display: flex;
+          display: flex;
      justify-content: space-around;
      align-items: center;
     background: transparent;
@@ -1726,7 +1676,6 @@ border: none;
 .contact_arrow{
 gap: 18px;
 display: flex;
-opacity: 0px;
 justify-content: center;
 padding: 6px 14px 6px 10px;
 color: rgba(23, 64, 80, 1);
@@ -1736,7 +1685,6 @@ color: rgba(23, 64, 80, 1);
 .rightside_container  form {
 padding: 20px;
 gap: 22px;
-opacity: 0px;
 display: flex;
 flex-direction: column;
 
@@ -1749,7 +1697,6 @@ padding: 16px 10px 16px 16px;
 gap: 10px;
 border-radius: 6px;
 border: 1px solid rgba(209, 209, 209, 1);
-opacity: 0px;
 outline: none;
 }
 .rightside_container form label{
@@ -1769,7 +1716,6 @@ padding: 16px 10px 16px 16px;
 gap: 10px;
 border-radius: 6px 0px 0px 0px;
 border: 1px solid rgba(209, 209, 209, 1);
-opacity: 0px;
 outline: none;
 
 }
@@ -1780,7 +1726,6 @@ background: rgba(23, 64, 80, 1);
 padding: 6px 12px 6px 12px;
 gap: 4px;
 border-radius: 6px;
-opacity: 0px;
 color: rgba(255, 255, 255, 1);
  font-family: SF Pro;
 font-size: 18px;
@@ -1815,8 +1760,7 @@ border: none;
   padding: 6px 14px 6px 10px;
   gap: 10px;
   border-radius: 1px;
-  opacity: 0px;
-  background: #DAF2FC66;
+    background: #DAF2FC66;
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -1869,7 +1813,6 @@ padding: 10px;
 gap: 20px;
 border-radius: 4px;
 border: 0.5px solid rgba(23, 64, 80, 1);
-opacity: 0px;
 font-family: SF Pro;
 font-size: 8px;
 align-items: center;
@@ -1891,8 +1834,7 @@ background: transparent;
   height: 10px;
   padding: 0.67px 0.67px 1.33px 1.33px;
   gap: 0px;
-  opacity: 0px;
-  
+    
 }
 
 }
@@ -2005,8 +1947,7 @@ background: transparent;
         width: 597px;
     height: 72px;
     gap: 0px;
-    opacity: 0px;
-    
+        
      font-family: "SF Pro";
     font-size: 14px;
     font-weight: 400;
@@ -2040,8 +1981,7 @@ background: transparent;
         width: 100%;
     height: 521px;
      gap: 0px;
-     opacity: 0px;
-    background: rgba(218, 242, 252, 0.5);
+         background: rgba(218, 242, 252, 0.5);
     position: relative;
        }
     
@@ -2115,8 +2055,7 @@ background: transparent;
   gap: 10px;
   border-radius: 6px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
-  background: transparent;
+    background: transparent;
   border: 1px solid #174050;
   }
   .contact_link a button{
@@ -2144,8 +2083,7 @@ background: transparent;
       width: 124px;
   height: 36px;
   gap: 12px;
-  opacity: 0px;
-  padding:0 10px;
+    padding:0 10px;
   
   }
   
@@ -2171,8 +2109,7 @@ background: transparent;
   padding: 8.4px 6.95px 9.4px 7.2px;
   gap: 0px;
   border-radius: 50%;
-  opacity: 0px;
-  background: #DAF2FC;
+    background: #DAF2FC;
   font-size: 18px;
   
   }
@@ -2183,16 +2120,14 @@ background: transparent;
   gap: 0px;
   border-radius: 20px 0px 20px 0px;
   border: 6px 0px 0px 0px;
-  opacity: 0px;
-  border: 6px solid rgba(23, 64, 80, 1)
+    border: 6px solid rgba(23, 64, 80, 1)
   
   }
   .h2_p{
     width:375px;
   height:400px;
   gap: 0px;
-  opacity: 0px;
-  
+    
   }
   .contact_contain{
     width: 100%;
@@ -2286,8 +2221,7 @@ background: transparent;
     top: 18.7px;
     left: 20px;
     gap: 0px;
-    opacity: 0px;
-    color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 1);
     
     }
     .bg_img{
@@ -2336,7 +2270,6 @@ background: transparent;
     width: 124px;
 height: 36px;
 gap: 12px;
-opacity: 0px;
 padding:0 10px;
 
 }
@@ -2370,8 +2303,7 @@ font-size: 18px;
 
     height: 153.45px;
     gap: 46.92px;
-    opacity: 0px;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     display: flex;
     align-items: center;
 }
@@ -2429,7 +2361,6 @@ text-align: left;
     width: 527px;
 height: 22px;
 gap: 0px;
-opacity: 0px;
 
  font-family: "SF Pro";
 font-size: 14px;
@@ -2456,8 +2387,7 @@ text-align: center;
     width: 100%;
 height: 521px;
  gap: 0px;
- opacity: 0px;
-background: rgba(218, 242, 252, 0.5);
+ background: rgba(218, 242, 252, 0.5);
 position: relative;
    }
 
@@ -2531,7 +2461,6 @@ border-radius: 6px;
     width:65px;
 /* height: 18px; */
 gap: 22px;
-opacity: 0px;
  }
 .company a p{
     font-family: SF Pro;
@@ -2554,7 +2483,6 @@ opacity: 0px;
     justify-content: center;
 /* height:118px; */
 gap: 32px;
-opacity: 0px;
 
 }
 .legal h3{
@@ -2572,7 +2500,6 @@ opacity: 0px;
     width: 205px;
 /* height: 66px; */
 gap: 20px;
-opacity: 0px;
 justify-content: center;
 
     display: flex;
@@ -2605,8 +2532,7 @@ padding-bottom: 10px;
  
         height: 153.45px;
         gap: 46.92px;
-        opacity: 0px;
-        flex-wrap: wrap;
+                flex-wrap: wrap;
         display: flex;
         align-items: center;
     }
@@ -2623,8 +2549,7 @@ padding-bottom: 10px;
           justify-content: center;
           flex-direction: column;
           align-items: start;
-        opacity: 0px;
-        padding-left: 10px;
+                padding-left: 10px;
         padding-right: 10px;
         padding-top: 50px;
         text-align: left;
@@ -2678,8 +2603,7 @@ padding-bottom: 10px;
         align-items: center;
         flex-direction: column;
        gap: 16px;
-       opacity: 0px;
-       padding-bottom: 34px;
+              padding-bottom: 34px;
        }
          .service_head h3{
        font-family: "SF Pro";
@@ -2717,8 +2641,7 @@ padding-bottom: 10px;
             width: 507px;
         height: 22px;
         gap: 0px;
-        opacity: 0px;
-        
+                
          font-family: "SF Pro";
         font-size: 11px;
         font-weight: 400;
@@ -2744,8 +2667,7 @@ padding-bottom: 10px;
             width: 100%;
         height: 521px;
          gap: 0px;
-         opacity: 0px;
-        background: rgba(218, 242, 252, 0.5);
+                 background: rgba(218, 242, 252, 0.5);
         position: relative;
            }
         
@@ -2800,8 +2722,7 @@ padding-bottom: 10px;
           
            .copyright div p {
            gap: 0px;
-            opacity: 0px;
-           font-family: SF Pro;
+                       font-family: SF Pro;
           font-size: 11px;
           font-weight: 400;
           line-height: 24px;
@@ -2821,8 +2742,7 @@ padding-bottom: 10px;
           font-size: 10px;
           gap: 0px;
           border-radius: 50px;
-          opacity: 0px;
-          background: rgba(218, 242, 252, 1);
+                    background: rgba(218, 242, 252, 1);
           
            }
            .about_img img{
@@ -2832,16 +2752,14 @@ padding-bottom: 10px;
           gap: 0px;
           border-radius: 20px 0px 20px 0px;
           border: 6px 0px 0px 0px;
-          opacity: 0px;
-          border: 6px solid rgba(23, 64, 80, 1)
+                    border: 6px solid rgba(23, 64, 80, 1)
           
           }
           .h2_p{
             width:298px;
           height:400px;
           gap: 0px;
-          opacity: 0px;
-          
+                    
           }
           .h2_p p{
             color: rgba(35, 31, 32, 1);
@@ -2884,8 +2802,7 @@ padding-bottom: 10px;
            padding-right: 20px;
            height: 90px;
            gap: 0px;
-           opacity: 0px;
-           
+                      
            }
 }
 
@@ -2902,8 +2819,7 @@ padding-bottom: 10px;
         width: 100%;
     height: 521px;
      gap: 0px;
-     opacity: 0px;
-    background: rgba(218, 242, 252, 0.5);
+         background: rgba(218, 242, 252, 0.5);
     position: relative;
        }
        .banner2 img{
@@ -2937,8 +2853,7 @@ padding-bottom: 10px;
     padding: 1px;
     gap: 10px;
     border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
-    background: #DAF2FC66;
+        background: #DAF2FC66;
     
     }
     .top_bg span{
@@ -3053,8 +2968,7 @@ padding-bottom: 10px;
         width: 124px;
     height: 36px;
     gap: 12px;
-    opacity: 0px;
-    padding:0 10px;
+        padding:0 10px;
     
     }
     
@@ -3171,7 +3085,6 @@ padding-bottom: 10px;
     width: 507px;
 height: 22px;
 gap: 0px;
-opacity: 0px;
 
  font-family: "SF Pro";
 font-size: 11px;
@@ -3197,16 +3110,14 @@ text-align: center;
     gap: 0px;
     border-radius: 20px 0px 20px 0px;
     border: 6px 0px 0px 0px;
-    opacity: 0px;
-    border: 6px solid rgba(23, 64, 80, 1)
+        border: 6px solid rgba(23, 64, 80, 1)
     
     }
     .h2_p{
       width:248px;
     height:400px;
     gap: 0px;
-    opacity: 0px;
-    
+        
     }
     .h2_p p{
       color: rgba(35, 31, 32, 1);
@@ -3287,8 +3198,7 @@ text-align: center;
  
         height: 148.45px;
         gap: 25.92px;
-        opacity: 0px;
-        flex-wrap: wrap;
+                flex-wrap: wrap;
         display: flex;
         align-items: center;
     }
@@ -3308,8 +3218,7 @@ text-align: center;
         align-items: center;
         flex-direction: column;
        gap: 16px;
-       opacity: 0px;
-       padding-bottom: 14px;
+              padding-bottom: 14px;
        }
          .service_head h3{
        font-family: "SF Pro";
@@ -3335,8 +3244,7 @@ text-align: center;
         gap: 0px;
         border-radius: 20px 0px 20px 0px;
         border: 6px 0px 0px 0px;
-        opacity: 0px;
-        border: 6px solid rgba(23, 64, 80, 1)
+                border: 6px solid rgba(23, 64, 80, 1)
         
         }
         .about_img img{
@@ -3346,16 +3254,14 @@ text-align: center;
         gap: 0px;
         border-radius: 20px 0px 20px 0px;
         border: 6px 0px 0px 0px;
-        opacity: 0px;
-        border: 6px solid rgba(23, 64, 80, 1)
+                border: 6px solid rgba(23, 64, 80, 1)
         
         }
         .h2_p{
           width:100%;
         height:100%;
         gap: 0px;
-        opacity: 0px;
-        
+                
         }
         .h2_p p{
           color: rgba(35, 31, 32, 1);
@@ -3417,8 +3323,7 @@ text-align: center;
           justify-content: center;
           flex-direction: column;
           align-items: start;
-        opacity: 0px;
-        padding-left: 10px;
+                padding-left: 10px;
         padding-right: 10px;
         padding-top: 50px;
         text-align: left;
@@ -3427,8 +3332,7 @@ text-align: center;
         width: 550px;
     height: 88px;
     gap: 0px;
-    opacity: 0px;
-     }
+         }
     .primeSliderHead h3{
         font-family: "SF Pro";
        font-size: 24px;
@@ -3440,8 +3344,7 @@ text-align: center;
        width: 477px;
    height: 66px;
    gap: 0px;
-   opacity: 0px;
-   
+      
        margin-left: 19px;
    }
    .primeSliderP p{
@@ -3536,8 +3439,7 @@ text-align: center;
         /* width: 250px; */
         height:108px;
         gap: 1px;
-        opacity: 0px;
-        padding: 0 15px;
+                padding: 0 15px;
         
           }
           .Contents h3{
@@ -3580,7 +3482,6 @@ text-align: center;
   width:65px;
 /* height: 18px; */
 gap: 12px;
-opacity: 0px;
 }
 .company a p{
   font-family: SF Pro;
@@ -3603,7 +3504,6 @@ color: rgba(35, 31, 32, 1);
   justify-content: center;
 /* height:118px; */
 gap: 22px;
-opacity: 0px;
 
 }
 .legal h3{
@@ -3621,7 +3521,6 @@ opacity: 0px;
   width: 205px;
 /* height: 66px; */
 gap: 20px;
-opacity: 0px;
 justify-content: center;
 
   display: flex;
@@ -3665,8 +3564,7 @@ padding-bottom: 0px;
         width: 400px;
     height: 80px;
     gap: 0px;
-    opacity: 0px;
-     }
+         }
     .primeSliderHead h3{
         font-family: "SF Pro";
        font-size: 21px;
@@ -3676,8 +3574,7 @@ padding-bottom: 0px;
    .primeSlider_container{
     /* width: 600px; */
       gap: 0px;
-    opacity: 0px;
-    padding-left: 5px;
+        padding-left: 5px;
     padding-right: 5px;
     padding-top: 30px;
  }
@@ -3685,7 +3582,6 @@ padding-bottom: 0px;
     width: 337px;
 height: 96px;
 /* gap: 40px; */
-opacity: 0px;
 padding-top: 10px;
     margin-left: 19px;
 }
@@ -3751,8 +3647,7 @@ margin-top: -6px;
 .rightside_container  form {
   padding: 0px;
   gap: 9px;
-  opacity: 0px;
-  display: flex;
+    display: flex;
   flex-direction: column;
   
   }
@@ -3765,8 +3660,7 @@ margin-top: -6px;
   gap: 10px;
   border-radius: 6px;
   border: 1px solid rgba(209, 209, 209, 1);
-  opacity: 0px;
-  outline: none;
+    outline: none;
   }
   .rightside_container form label{
    font-family: SF Pro;
@@ -3785,8 +3679,7 @@ margin-top: -6px;
   gap: 10px;
   border-radius: 6px 0px 0px 0px;
   border: 1px solid rgba(209, 209, 209, 1);
-  opacity: 0px;
-  outline: none;
+    outline: none;
   
   }
   
@@ -3797,8 +3690,7 @@ margin-top: -6px;
   padding: 6px 12px 6px 12px;
   gap: 4px;
   border-radius: 6px;
-  opacity: 0px;
-  color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
    font-family: SF Pro;
   font-size: 14px;
   font-weight: 400;
@@ -3831,8 +3723,7 @@ margin-top: -6px;
         width: 400px;
     height: 22px;
     gap: 0px;
-    opacity: 0px;
-     font-family: "SF Pro";
+         font-family: "SF Pro";
     font-size: 9px;
     font-weight: 400;
     line-height: 24px;
@@ -3866,8 +3757,7 @@ margin-top: -6px;
         align-items: center;
         flex-direction: column;
        gap: 16px;
-       opacity: 0px;
-       padding-bottom: 14px;
+              padding-bottom: 14px;
        }
          .service_head h3{
        font-family: "SF Pro";
@@ -3933,8 +3823,7 @@ margin-top: -6px;
  
         height: 148.45px;
         gap: 25.92px;
-        opacity: 0px;
-        flex-wrap: wrap;
+                flex-wrap: wrap;
         display: flex;
         align-items: center;
     }
@@ -3992,8 +3881,7 @@ margin-top: -6px;
       width: 106px;
   
   gap: 0px;
-  opacity: 0px;
-  
+    
   }
     .footer_container{
       display: flex;
@@ -4011,8 +3899,7 @@ margin-top: -6px;
     width:65px;
   /* height: 18px; */
   gap: 12px;
-  opacity: 0px;
-  }
+    }
   .company a p{
     font-family: SF Pro;
     font-size: 11px;
@@ -4035,8 +3922,7 @@ margin-top: -6px;
   /* height:118px; */
   gap: 22px;
   margin-left: 100px;
-  opacity: 0px;
-  
+    
   }
   .legal h3{
     font-weight: bold;
@@ -4053,8 +3939,7 @@ margin-top: -6px;
     width: 205px;
   /* height: 66px; */
   gap: 20px;
-  opacity: 0px;
-  justify-content: center;
+    justify-content: center;
   
     display: flex;
     flex-direction: column;
@@ -4093,8 +3978,7 @@ margin-top: -6px;
         width: 370px;
     height: 22px;
     gap: 0px;
-    opacity: 0px;
-     font-family: "SF Pro";
+         font-family: "SF Pro";
     font-size: 9px;
     font-weight: 400;
     line-height: 24px;
@@ -4168,8 +4052,7 @@ margin-top: -6px;
        height: 15.96px;
         margin-top: -5px;
        gap: 0px;
-       opacity: 0px;
-       color: rgba(255, 255, 255, 1);
+              color: rgba(255, 255, 255, 1);
        
        }
        .ads_img{
@@ -4177,8 +4060,7 @@ margin-top: -6px;
  
         height: 148.45px;
         gap: 25.92px;
-        opacity: 0px;
-        flex-wrap: wrap;
+                flex-wrap: wrap;
         display: flex;
         align-items: start;
     }
@@ -4196,8 +4078,7 @@ margin-top: -6px;
     /* height:118px; */
     gap: 22px;
     margin-left: 50px;
-    opacity: 0px;
-    
+        
 }
 .copyright{
   display: flex;
@@ -4210,7 +4091,6 @@ margin-top: -6px;
 
 .copyright div p {
 gap: 0px;
-opacity: 0px;
 font-family: SF Pro;
 font-size: 6px;
 font-weight: 400;
@@ -4231,7 +4111,6 @@ padding: 3.45px;
 font-size: 8px;
 gap: 0px;
 border-radius: 50px;
-opacity: 0px;
 background: rgba(218, 242, 252, 1);
 
 }
@@ -4243,7 +4122,6 @@ justify-content: center;
  gap: 10px;
 border-radius: 4px;
 border: 0.5px solid rgba(23, 64, 80, 1);
-opacity: 0px;
 font-family: SF Pro;
 font-size: 5px;
 align-items: center;
@@ -4265,8 +4143,7 @@ background: transparent;
   height: 10px;
   padding: 0.67px 0.67px 1.33px 1.33px;
   gap: 0px;
-  opacity: 0px;
-  
+    
 }
 }
 @media(max-width:400px) {
@@ -4332,8 +4209,7 @@ background: transparent;
     padding: 0px;
     gap: 10px;
     border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
-    background: #DAF2FC66;
+        background: #DAF2FC66;
     
     }
     .top_bg span{
@@ -4359,8 +4235,7 @@ background: transparent;
         align-items: start;
         flex-direction: column;
        gap: 16px;
-       opacity: 0px;
-       padding-bottom: 14px;
+              padding-bottom: 14px;
        }
        .service_head p{
         width: 100%;
@@ -4428,8 +4303,7 @@ background: transparent;
         width: 320px;
     height: 80px;
     gap: 0px;
-    opacity: 0px;
-     }
+         }
     .primeSliderHead h3{
         font-family: "SF Pro";
        font-size: 17px;
@@ -4439,8 +4313,7 @@ background: transparent;
    .primeSlider_container{
     /* width: 600px; */
       gap: 0px;
-    opacity: 0px;
-    padding-left: 5px;
+        padding-left: 5px;
     padding-right: 5px;
     padding-top: 30px;
  }
@@ -4448,7 +4321,6 @@ background: transparent;
     width: 300px;
 height: 100px;
 /* gap: 40px; */
-opacity: 0px;
 padding-top: 0px;
     margin-left: 19px;
 }
@@ -4478,7 +4350,6 @@ text-align: left;
     width: 310px;
 height: 22px;
 gap: 0px;
-opacity: 0px;
  font-family: "SF Pro";
 font-size: 9px;
 font-weight: 400;
@@ -4550,8 +4421,7 @@ text-align: center;
           /* height:118px; */
           gap: 22px;
           margin-left: 20px;
-          opacity: 0px;
-          
+                    
       }
 }
 
@@ -4613,8 +4483,7 @@ text-align: center;
        height: 15.96px;
         margin-top: -5px;
        gap: 0px;
-       opacity: 0px;
-       color: rgba(255, 255, 255, 1);
+              color: rgba(255, 255, 255, 1);
        
        }
        .btns button{
@@ -4638,8 +4507,7 @@ text-align: center;
         /* height:118px; */
         gap: 22px;
         margin-left: 0px;
-        opacity: 0px;
-        
+                
       }
          
 }
@@ -4666,8 +4534,7 @@ text-align: center;
         width:100%;
         height: 148.45px;
         gap: 5.92px;
-        opacity: 0px;
-        flex-wrap: wrap;
+                flex-wrap: wrap;
         display: flex;
         padding: 25px;
         /* align-items: start; */
@@ -4722,8 +4589,7 @@ text-align: center;
         width: 300px;
     height: 103px;
     gap: 0px;
-    opacity: 0px;
-     }
+         }
     .primeSliderHead h3{
         font-family: "SF Pro";
        font-size: 17px;
@@ -4733,8 +4599,7 @@ text-align: center;
    .primeSlider_container{
     /* width: 600px; */
       gap: 0px;
-    opacity: 0px;
-    padding-left: 0px;
+        padding-left: 0px;
     padding-right: 0px;
     padding-top: 30px;
  }
@@ -4742,7 +4607,6 @@ text-align: center;
     width: 250px;
 height: 100px;
 /* gap: 40px; */
-opacity: 0px;
 padding-top: 0px;
     margin-left: 19px;
 }
@@ -4803,7 +4667,6 @@ text-align: left;
     width: 250px;
 height: 22px;
 gap: 0px;
-opacity: 0px;
  font-family: "SF Pro";
 font-size: 9px;
 font-weight: 400;
@@ -4850,16 +4713,14 @@ text-align: center;
         width: 13.34px;
     height: 15.96px;
     gap: 0px;
-    opacity: 0px;
-    color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 1);
     
     }
     .primeSliderHead {
         width: 100%;
     height: 103px;
     gap: 0px;
-    opacity: 0px;
-     }
+         }
     .primeSliderHead h3{
         font-family: "SF Pro";
        font-size: 17px;
@@ -4870,8 +4731,7 @@ text-align: center;
     /* width: 600px; */
     width: 100%;
       gap: 0px;
-    opacity: 0px;
-    padding-left: 0px;
+        padding-left: 0px;
     padding-right: 0px;
     padding-top: 30px;
  }
@@ -4879,7 +4739,6 @@ text-align: center;
     width: 209px;
 height: 100px;
 /* gap: 40px; */
-opacity: 0px;
 padding-top: 0px;
     margin-left: 19px;
 }
@@ -4900,7 +4759,6 @@ align-items: center;
 padding: 0px;
 gap: 0px;
 border-radius: 2px;
-opacity: 0px;
 background: #DAF2FC66;
 
 }
@@ -4940,8 +4798,7 @@ background-image: radial-gradient(62.83% 62.83% at 37.17% 50%, #44C0EF 0%, #276E
    height: 15.96px;
     margin-top: -5px;
    gap: 0px;
-   opacity: 0px;
-   color: rgba(255, 255, 255, 1);
+      color: rgba(255, 255, 255, 1);
    
    }
    .btns button{
@@ -5012,7 +4869,6 @@ gap: 4px;
    width: 250px;
 height: 33px;
 gap: 0px;
-opacity: 0px;
 font-family: "SF Pro";
 font-size: 7px;
 font-weight: 400;
@@ -5179,8 +5035,7 @@ line-height: 1.1rem;
         width: 200px;
     height: 103px;
     gap: 0px;
-    opacity: 0px;
-     }
+         }
     .primeSliderHead h3{
         font-family: "SF Pro";
        font-size: 17px;
@@ -5190,8 +5045,7 @@ line-height: 1.1rem;
    .primeSlider_container{
     /* width: 600px; */
       gap: 0px;
-    opacity: 0px;
-    padding-left: 0px;
+        padding-left: 0px;
     padding-right: 0px;
     padding-top: 30px;
  }
@@ -5199,7 +5053,6 @@ line-height: 1.1rem;
     width: 209px;
 height: 100px;
 /* gap: 40px; */
-opacity: 0px;
 padding-top: 0px;
     margin-left: 9px;
 }
@@ -5259,8 +5112,7 @@ text-align: center;
     width: 200px;
  height: 33px;
  gap: 0px;
- opacity: 0px;
- font-family: "SF Pro";
+  font-family: "SF Pro";
  font-size: 7px;
  font-weight: 400;
  line-height: 18px;

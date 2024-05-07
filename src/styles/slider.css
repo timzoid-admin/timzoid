@@ -1,0 +1,138 @@
+.show_main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin: auto 200px; */
+  /* max-width: 300px; */
+}
+.slider-container {
+  /* width: 100%; */
+  height: 200px;
+  /* max-width: 300px; */
+
+    position: relative;
+ }
+
+.slider-image {
+  position: absolute;
+  top: 0;
+  right: -300px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+img{
+  width: 100%;
+  height: 100%;
+ }
+.slider-image.active {
+  opacity: 1;
+}
+.slider-container img{
+  width: auto;
+  height: 300px;
+ object-fit: cover;
+}
+
+
+@media(max-width:598px) {
+  .slider-container img{
+    width: auto;
+    height: 200px;
+   object-fit: cover;
+  }
+  .slider-image {
+    position: absolute;
+    top: 0;
+    right: -190px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  .slider-container {
+    /* width: 100%; */
+    height: 200px;
+    /* max-width: 300px; */
+  
+      position: relative;
+   }
+
+}
+
+@media(max-width:430px) {
+  .slider-container img{
+    width: auto;
+    height: 190px;
+   object-fit: cover;
+  }
+  .slider-image {
+    position: absolute;
+    top: 0;
+    right: -158px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+}
+
+@media(max-width:353px) {
+  .slider-container img{
+    width: auto;
+    height: 160px;
+   object-fit: cover;
+  } 
+  .slider-image {
+    position: absolute;
+    top: 0;
+    right: -135px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+}
+
+@media(max-width:330px) {
+  .slider-container img{
+    width: auto;
+    height: 160px;
+   object-fit: cover; 
+  } 
+  .slider-image {
+    position: absolute; 
+    top: 38px; 
+    right: -135px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }   
+}
+
+@media(max-width:280px) {
+  .slider-container img{
+    width: auto;
+    height: 100px;
+   object-fit: cover; 
+  } 
+  .slider-image {
+    position: absolute; 
+    top: 38px; 
+    right: -85px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }  
+  .slider-container {
+    /* width: 100%; */
+    height: 180px;
+    /* max-width: 300px; */
+  
+      position: relative;
+   }
+}
+
+@media(max-width:280px) {
+  .slider-container {
+    /* width: 100%; */
+    height: 140px;
+    /* max-width: 300px; */
+  
+      position: relative;
+   }
+}
