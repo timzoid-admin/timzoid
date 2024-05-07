@@ -4,9 +4,14 @@ import arrowRi from "../../assests/banner/aboutall.svg"
 import arrowLe from "../../assests/banner/aboutarr.svg"
 import {FiPhone} from "react-icons/fi"
 import {MdOutlineMail} from "react-icons/md"
+import { Header } from '../header/Header';
+import { Footer } from '../Footer/Footer';
 const ContactPage = () => {
   return (
     <>
+    <div>
+        <Header/>
+    </div>
     <div className='contact'>
       <div className='contact_contain'>
         <div className='leftse'>
@@ -74,6 +79,9 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+    </div>
+    <div>
+      <Footer/>
     </div>
     </>
   )

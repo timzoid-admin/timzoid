@@ -2,10 +2,15 @@ import React from 'react'
 import aboutimg from "../../assests/2149208028 1@2x.png"
 import arrowRi from "../../assests/banner/aboutall.svg"
 import arrowLe from "../../assests/banner/aboutarr.svg"
+import { Header } from '../header/Header'
+import { Footer } from '../Footer/Footer'
 
 export const AboutPage = () => {
   return (
     <>
+    <div>
+        <Header/>
+    </div>
     <div className='about'>
     <div className="bg_con">
          <div className="bg_about">
@@ -39,6 +44,9 @@ export const AboutPage = () => {
           </div>
         </div>
       </div>
+    </div>
+    <div>
+      <Footer/>
     </div>
     </>
   )

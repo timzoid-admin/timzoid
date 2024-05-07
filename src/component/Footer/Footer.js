@@ -11,7 +11,9 @@ export const Footer = () => {
      
       <div className='footer_container'>
         <div className='footer_sub'>
+          <Link to="/">
           <img  src={logo} alt=''/>
+          </Link>
           <p>Empowering innovation, driving success</p>
         </div>
         <div className='company'>

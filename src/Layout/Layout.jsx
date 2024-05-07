@@ -1,18 +1,18 @@
-// Layout.js
-import React from 'react';
+// // Layout.js
+// import React from 'react';
  
-import { Outlet } from 'react-router-dom';
-import { Header } from '../component/header/Header';
-import { Footer } from '../component/Footer/Footer';
+//  import { Header } from '../component/header/Header';
+// import { Footer } from '../component/Footer/Footer';
+// import { Homesection } from '../component/homescreen/Homesection';
 
-const Layout = () => {
-  return (
-    <div>
-      <Header />
-      <Outlet />
-      <Footer />
-    </div>
-  );
-};
+// const Layout = () => {
+//   return (
+//     <div>
+//       <Header />
+//       <Homesection/>
+//       <Footer />
+//     </div>
+//   );
+// };
 
-export default Layout;
+// export default Layout;

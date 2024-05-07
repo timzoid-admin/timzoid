@@ -8,11 +8,16 @@ import { Ads } from '../ads/Sponspers';
 import { BsArrowRight } from 'react-icons/bs';
   import PrimeSlider from '../Prime_slider/Prime_slider';
  import { Banner1 } from './../Banner/Banner1';
+import { Header } from '../header/Header';
+import { Footer } from '../Footer/Footer';
 
   
  export  const Homesection = () => {
   return (
     <>
+    <div>
+        <Header/>
+    </div>
     <div className="bg_full">
         <div className="bg_container">
             <div className="top_bg">
@@ -58,6 +63,9 @@ import { BsArrowRight } from 'react-icons/bs';
         <div>
             <Banner2/>
         </div>
+        <div>
+      <Footer/>
+    </div>
     </>
   )
 }
