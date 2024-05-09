@@ -34,7 +34,7 @@ const FlashCard = () => {
   const settings = {
     dots: false,
     infinite: true, // Set to true for infinite looping
-    speed: 1000,
+    speed: 3000,
     autoplay: true,
     autoplaySpeed: 0, // Set to 0 to disable automatic sliding
     slidesToShow: getSlidesToShow(),

@@ -50,8 +50,8 @@ export const Header = () => {
                   </option>
                 ))}
               </select>
-              {selectedCountry && (
-                <span className="flag">{countries.find(c => c.code === selectedCountry).flag}</span>
+               {selectedCountry && (
+                <div className="flag">{countries.find(c => c.code === selectedCountry).flag}</div>
               )}
             </div>
             <div className="contact_link">
