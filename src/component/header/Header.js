@@ -9,7 +9,7 @@ export const Header = () => {
     { code: 'EE', name: 'Estonia', flag: '🇪🇪' },
     // Add more countries as needed
   ];
-  const [selectedCountry, setSelectedCountry] = useState('');
+  const [selectedCountry, setSelectedCountry] = useState('NG'); // Set Nigeria as default country
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleCountryChange = (event) => {
@@ -43,7 +43,6 @@ export const Header = () => {
           <div className="selections" onClick={closeMenu}>
             <div className='selecting'>
               <select id="country" value={selectedCountry} onChange={handleCountryChange}>
-                <option value="">Select</option>
                 {countries.map((country) => (
                   <option key={country.code} value={country.code}>
                     {selectedCountry === country.code ? country.name : `${country.flag} ${country.name}`}
@@ -57,7 +56,7 @@ export const Header = () => {
             <div className="contact_link">
               <Link to="/contact">
                 <button>
-                  speak with an agent 
+                  Speak with an expert 
                 </button>
               </Link>
             </div>
