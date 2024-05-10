@@ -1,139 +1,123 @@
-.show_main{
+
+
+
+.show_main {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* margin: auto 200px; */
-  /* max-width: 300px; */
 }
-.slider-container {
-  /* width: 100%; */
-  height: 400px;
-  /* max-width: 300px; */
 
-    position: relative;
- }
+.slider-container {
+
+  position: relative;
+  height: 400px; /* Adjust this as needed */
+}
 
 .slider-image {
   position: absolute;
   top: 0;
-  right: -390px;
-  
-  /* transition: opacity 1s ease-in-out; */
+  right: -400px;
+  opacity: 0;
+  transition: opacity 4.5s ease-in-out; /* Adjust duration and timing function */
 }
-img{
-  width: 100%;
-  height: 100%;
- }
+
 .slider-image.active {
-  /* opacity: 1; */
+  opacity: 1;
 }
-.slider-container img{
-  width: auto;
-  height: 452px;
- object-fit: cover;
- border-radius: 21px;
-}
-
-
-@media(max-width:598px) {
-  .slider-container img{
-    width: auto;
-    height: 200px;
-   object-fit: cover;
+@media (max-width: 798px) {
+  .slider-container img {
+    height: 350px; /* Adjust this as needed */
   }
   .slider-image {
     position: absolute;
     top: 0;
-    right: -190px;
-    
-    /* transition: opacity 1s ease-in-out; */
+    right: -300px;
+    opacity: 0;
+    transition: opacity 4.5s ease-in-out; /* Adjust duration and timing function */
   }
-  .slider-container {
-    /* width: 100%; */
-    height: 200px;
-    /* max-width: 300px; */
-  
-      position: relative;
-   }
-
 }
-
-@media(max-width:430px) {
-  .slider-container img{
-    width: auto;
-    height: 190px;
-   object-fit: cover;
+  @media (max-width: 768px) {
+    .slider-container img {
+      height: 300px; /* Adjust this as needed */
+    }
+  .slider-image {
+    position: absolute;
+    top: 0;
+    right: -250px;
+    opacity: 0;
+    transition: opacity 4.5s ease-in-out; /* Adjust duration and timing function */
+  }
+}
+@media (max-width: 598px) {
+  .slider-container {
+    height: 320px; /* Adjust this as needed */
+  }
+  .slider-container img {
+    height: 250px; /* Adjust this as needed */
   }
   .slider-image {
     position: absolute;
     top: 0;
-    right: -158px;
-    
-    /* transition: opacity 1s ease-in-out; */
+    right: -220px;
+    opacity: 0;
+    transition: opacity 4.5s ease-in-out; /* Adjust duration and timing function */
   }
 }
 
-@media(max-width:353px) {
-  .slider-container img{
-    width: auto;
-    height: 160px;
-   object-fit: cover;
-  } 
+@media (max-width: 430px) {
+  .slider-container img {
+    height: 190px; /* Adjust this as needed */
+  }
   .slider-image {
     position: absolute;
     top: 0;
-    right: -135px;
-    
-    /* transition: opacity 1s ease-in-out; */
+    right: -170px;
+    opacity: 0;
+    transition: opacity 4.5s ease-in-out; /* Adjust duration and timing function */
   }
 }
 
-@media(max-width:330px) {
-  .slider-container img{
-    width: auto;
-    height: 160px;
-   object-fit: cover; 
-  } 
+@media (max-width: 353px) {
+  .slider-container img {
+    height: 160px; /* Adjust this as needed */
+  }
   .slider-image {
-    position: absolute; 
-    top: 38px; 
-    right: -135px;
-    
-    /* transition: opacity 1s ease-in-out; */
-  }   
+    position: absolute;
+    top: 0;
+    right: -130px;
+    opacity: 0;
+    transition: opacity 4.5s ease-in-out; /* Adjust duration and timing function */
+  }
+  
 }
 
-@media(max-width:280px) {
-  .slider-container img{
-    width: auto;
-    height: 100px;
-   object-fit: cover; 
-  } 
+@media (max-width: 330px) {
+  .slider-container img {
+    height: 160px; /* Adjust this as needed */
+  }
   .slider-image {
-    position: absolute; 
-    top: 38px; 
-    right: -85px;
-    /* opacity:0; */
-    /* transition: opacity 1s ease-in-out; */
-  }  
-  .slider-container {
-    /* width: 100%; */
-    height: 180px;
-    /* max-width: 300px; */
-  
-      position: relative;
-   }
+    position: absolute;
+    top: 20px;
+    right: -130px;
+    opacity: 0;
+    transition: opacity 4.5s ease-in-out; /* Adjust duration and timing function */
+  }
 }
 
-@media(max-width:280px) {
+@media (max-width: 280px) {
+  .slider-container img {
+    height: 100px; /* Adjust this as needed */
+  }
   .slider-container {
-    /* width: 100%; */
-    height: 140px;
-    /* max-width: 300px; */
-  
-      position: relative;
-   }
+    height: 180px; /* Adjust this as needed */
+  }
+}
+
+@media (max-width: 280px) {
+  .slider-container {
+    height: 140px; /* Adjust this as needed */
+  }
 }

@@ -36,7 +36,10 @@ export const AboutPage = () => {
             <img src={arrowRi} className='arr' alt='arrow'/>
             </div>
             <p>With over 2 decades of experience in the innovative technology space, we are committed to providing innovative solutions that address pressing challenges across industries. Timzoid Limited is a technology solution company poised to revolutionize operations in various sectors including Fintech, Oil & Gas, Construction, Government, Human Resources, E-commerce and others enabling them to offer better services to their new and existing customers.
-              <br className='spaced'/>
+            
+              <div className="">
+              <p className='spaced'></p>
+              </div>
                Our commitment to excellence is reflected in our diverse range of comprehensive technological services. We understand that every business is unique which is why we take time to understand your specific needs and goals. Also, we stay up-to-date with the latest industry trends and technologies to ensure that our clients receive the most efficient solutions available. Our goal is to not only meet your expectations but exceed them.</p>
           </div>
           <div className='about_img'>

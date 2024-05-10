@@ -56,7 +56,7 @@ const ContactPage = () => {
               <label>Full Name</label>
               <input 
                 type="text"  
-                   placeholder="Enter your full name" 
+                   placeholder="Enter your full name" className='placeholder'
                />
               <label>Email Address</label>
               <input 
