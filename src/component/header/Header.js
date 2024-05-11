@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import logo from "../../assests/Timzoid Logo Trans 3.svg";
 import { Link } from 'react-router-dom';
 
+// Import SVG icons for flags
+import UKFlag from "../../assests/flags/circle-flags_uk.svg"
+import NGFlag from '../../assests/flags/nigeria.svg';
+import EEFlag from '../../assests/flags/emojione_flag-for-estonia.svg';
+
 export const Header = () => {
   const countries = [
-    { code: 'GB', name: 'United Kingdom', flag: '🇬🇧' },
-    { code: 'NG', name: 'Nigeria', flag: '🇳🇬' },
-    { code: 'EE', name: 'Estonia', flag: '🇪🇪' },
+    { code: 'GB', name: 'United Kingdom', flag: UKFlag, emoji: '🇬🇧' },
+    { code: 'NG', name: 'Nigeria', flag: NGFlag, emoji: '🇳🇬' },
+    { code: 'EE', name: 'Estonia', flag: EEFlag, emoji: '🇪🇪' },
     // Add more countries as needed
   ];
   const [selectedCountry, setSelectedCountry] = useState('NG'); // Set Nigeria as default country
@@ -41,18 +46,22 @@ export const Header = () => {
             </ul>
           </div>
           <div className="selections" onClick={closeMenu}>
-            <div className='selecting'>
+           <div className='select_tog'>
+           <div className='selecting'>
               <select id="country" value={selectedCountry} onChange={handleCountryChange}>
                 {countries.map((country) => (
                   <option key={country.code} value={country.code}>
-                    {selectedCountry === country.code ? country.name : `${country.flag} ${country.name}`}
+                    <div className='inside'>{country.name} {country.emoji}</div>
                   </option>
                 ))}
               </select>
-               {selectedCountry && (
-                <div className="flag">{countries.find(c => c.code === selectedCountry).flag}</div>
+            </div>
+            <div className="flag">
+              {selectedCountry && (
+                <img src={countries.find(c => c.code === selectedCountry).flag} alt="Flag" />
               )}
             </div>
+           </div>
             <div className="contact_link">
               <Link to="/contact">
                 <button>
