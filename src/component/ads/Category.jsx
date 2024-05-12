@@ -47,7 +47,7 @@ const FlashCard = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         }
       },
       {
@@ -62,8 +62,8 @@ const FlashCard = () => {
   function getSlidesToShow() {
     const width = window.innerWidth;
     if (width >= 768) {
-      return 4;
-    } else if (width >= 480) {
+      return 3;
+    } else if (width >= 680) {
       return 2;
     } else {
       return 1;
@@ -92,7 +92,7 @@ const FlashCard = () => {
             <div className="slider_container">
               {/* Lottie animation */}
               <div className="animation_image">
-                <Lottie
+                {/* <Lottie
                   options={{
                     loop: true,
                     autoplay: true,
@@ -100,7 +100,7 @@ const FlashCard = () => {
                     rendererSettings: {
                       preserveAspectRatio: 'xMidYMid slice'
                     }
-                  }}
+                  }} */}
                 />
               </div>
               <div className="Contents">
