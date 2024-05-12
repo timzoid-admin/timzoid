@@ -14,33 +14,34 @@ const flashcards = [
   { name: 'Workflow Optimization', Contents: ' Streamline your workflow for enhanced efficiency and productivity.', animationData: require('../../assests/anime/Animation - 1714904503424.json') },
 ];
 
-const NextArrow = ({ onClick }) => (
-  <div className="control-btn" onClick={onClick}>
-    <button className="next">
-      <i className="fa fa-arrow-right"></i>
-    </button>
-  </div>
-);
+// const NextArrow = ({ onClick }) => (
+//   <div className="control-btn" onClick={onClick}>
+//     <button className="next">
+//       <i className="fa fa-arrow-right"></i>
+//     </button>
+//   </div>
+// );
 
-const PrevArrow = ({ onClick }) => (
-  <div className="control-btn" onClick={onClick}>
-    <button className="prev">
-      <i className="fa fa-arrow-left"></i>
-    </button>
-  </div>
-);
+// const PrevArrow = ({ onClick }) => (
+//   <div className="control-btn" onClick={onClick}>
+//     <button className="prev">
+//       <i className="fa fa-arrow-left"></i>
+//     </button>
+//   </div>
+// );
 
 const FlashCard = () => {
   const settings = {
     dots: false,
-    infinite: true, // Set to true for infinite looping
+    infinite: true, 
+    // Set to true for infinite looping
     speed: 3000,
     autoplay: true,
     autoplaySpeed: 0, // Set to 0 to disable automatic sliding
     slidesToShow: getSlidesToShow(),
     slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    // nextArrow: <NextArrow />,
+    // prevArrow: <PrevArrow />,
     cssEase: 'linear',
     responsive: [
       {
@@ -81,13 +82,13 @@ const FlashCard = () => {
       {flashcards.map((flashcard, index) => (
         <motion.div
           key={index}
-          className="box"
-          initial={{ opacity: 0, x: -300 }}
-          animate={{ opacity: 1, x: 0 }}
+          // className="box"
+          // initial={{ opacity: 0, x: -100 }}
+          // animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
           <div className="productef ">
-            <div className='slide_padd'>
+            {/* <div className='slide_padd'> */}
             <div className="slider_container">
               {/* Lottie animation */}
               <div className="animation_image">
@@ -107,7 +108,7 @@ const FlashCard = () => {
                 <p>{flashcard.Contents}</p>
               </div>
             </div>
-            </div>
+            {/* </div> */}
           </div>
         </motion.div>
       ))}
