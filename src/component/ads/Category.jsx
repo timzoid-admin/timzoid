@@ -38,7 +38,7 @@ const FlashCard = () => {
     speed: 3000,
     autoplay: true,
     autoplaySpeed: 0, // Set to 0 to disable automatic sliding
-    slidesToShow: getSlidesToShow(),
+    // slidesToShow: getSlidesToShow(),
     slidesToScroll: 1,
     // nextArrow: <NextArrow />,
     // prevArrow: <PrevArrow />,
@@ -59,23 +59,23 @@ const FlashCard = () => {
     ]
   };
 
-  function getSlidesToShow() {
-    const width = window.innerWidth;
-    if (width >= 768) {
-      return 3;
-    } else if (width >= 680) {
-      return 2;
-    } else {
-      return 1;
-    }
-  }
+  // function getSlidesToShow() {
+  //   const width = window.innerWidth;
+  //   if (width >= 768) {
+  //     return 3;
+  //   } else if (width >= 680) {
+  //     return 2;
+  //   } else {
+  //     return 1;
+  //   }
+  // }
 
-  window.addEventListener('resize', () => {
-    const newSlidesToShow = getSlidesToShow();
-    if (newSlidesToShow !== settings.slidesToShow) {
-      settings.slidesToShow = newSlidesToShow;
-    }
-  });
+  // window.addEventListener('resize', () => {
+  //   const newSlidesToShow = getSlidesToShow();
+  //   if (newSlidesToShow !== settings.slidesToShow) {
+  //     settings.slidesToShow = newSlidesToShow;
+  //   }
+  // });
 
   return (
     <Slider {...settings}>
@@ -92,7 +92,7 @@ const FlashCard = () => {
             <div className="slider_container">
               {/* Lottie animation */}
               <div className="animation_image">
-                {/* <Lottie
+                <Lottie
                   options={{
                     loop: true,
                     autoplay: true,
@@ -100,8 +100,8 @@ const FlashCard = () => {
                     rendererSettings: {
                       preserveAspectRatio: 'xMidYMid slice'
                     }
-                  }} */}
-                {/* /> */}
+                  }}
+                 />
               </div>
               <div className="Contents">
                 <h3>{flashcard.name}</h3>
