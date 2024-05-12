@@ -62,8 +62,8 @@ const FlashCard = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
-          speed: 3000,
-          autoplaySpeed: 0,
+          
+          autoplaySpeed: 1000,
           infinite: true,
           dots: false,
           arrows: false
