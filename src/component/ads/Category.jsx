@@ -38,7 +38,7 @@ const FlashCard = () => {
     speed: 3000,
     autoplay: true,
     autoplaySpeed: 0, // Set to 0 to disable automatic sliding
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     // nextArrow: <NextArrow />,
     // prevArrow: <PrevArrow />,
@@ -50,7 +50,7 @@ const FlashCard = () => {
           slidesToShow: 3,
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 3000,
+          autoplaySpeed: 0,
           infinite: true,
           dots: false,
           arrows: false
@@ -62,7 +62,7 @@ const FlashCard = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 3000,
+          autoplaySpeed: 0,
           infinite: true,
           dots: false,
           arrows: false
