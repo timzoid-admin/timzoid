@@ -43,6 +43,7 @@ const FlashCard = () => {
     // nextArrow: <NextArrow />,
     // prevArrow: <PrevArrow />,
     cssEase: 'linear',
+    
     responsive: [
       {
         breakpoint: 768,
@@ -63,10 +64,11 @@ const FlashCard = () => {
           slidesToScroll: 1,
           autoplay: true,
           
-          autoplaySpeed: 1000,
+          autoplaySpeed:3000,
           infinite: true,
           dots: false,
-          arrows: false
+          arrows: false,
+          cssEase: 'ease',
         }
       }
     ]
