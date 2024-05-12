@@ -101,7 +101,7 @@ const FlashCard = () => {
                       preserveAspectRatio: 'xMidYMid slice'
                     }
                   }} */}
-                />
+                {/* /> */}
               </div>
               <div className="Contents">
                 <h3>{flashcard.name}</h3>
