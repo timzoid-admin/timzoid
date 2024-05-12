@@ -595,6 +595,35 @@ overflow: hidden;
 
 /* category slider */
 /* carousel */
+.carousel-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-content {
+  margin-top: 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .carousel-slide img {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+
 
 .productef {
   width: 100%;
