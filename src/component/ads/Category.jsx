@@ -68,7 +68,7 @@ const FlashCard = () => {
           infinite: true,
           dots: false,
           arrows: false,
-          cssEase: 'ease',
+          cssEase: 'linear',
         }
       }
     ]
