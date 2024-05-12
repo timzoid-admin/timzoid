@@ -37,9 +37,12 @@ const FlashCard = () => {
     // Set to true for infinite looping
     speed: 3000,
     autoplay: true,
-    autoplaySpeed: 0, // Set to 0 to disable automatic sliding
+    autoplaySpeed: 0,
+     // Set to 0 to disable automatic sliding
     slidesToShow: 4,
     slidesToScroll: 1,
+    // fade: true,
+    arrows: false,
     // nextArrow: <NextArrow />,
     // prevArrow: <PrevArrow />,
     cssEase: 'linear',
@@ -63,12 +66,12 @@ const FlashCard = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           autoplay: true,
-          
-          autoplaySpeed:500,
+          speed: 3000,
+          autoplaySpeed:0,
           infinite: true,
           dots: false,
           arrows: false,
-          cssEase: 'linear',
+          // cssEase: 'linear',
         }
       }
     ]
