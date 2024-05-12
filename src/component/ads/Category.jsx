@@ -38,7 +38,7 @@ const FlashCard = () => {
     speed: 3000,
     autoplay: true,
     autoplaySpeed: 0, // Set to 0 to disable automatic sliding
-    slidesToShow: getSlidesToShow(),
+    slidesToShow: 3,
     slidesToScroll: 1,
     // nextArrow: <NextArrow />,
     // prevArrow: <PrevArrow />,
@@ -71,16 +71,7 @@ const FlashCard = () => {
     ]
   };
 
-  function getSlidesToShow() {
-    const width = window.innerWidth;
-    if (width >= 768) {
-      return 3;
-    } else if (width >= 680) {
-      return 2;
-    } else {
-      return 1;
-    }
-  }
+
 
   // window.addEventListener('resize', () => {
   //   const newSlidesToShow = getSlidesToShow();
@@ -100,7 +91,7 @@ const FlashCard = () => {
           // transition={{ duration: 0.5 }}
         >
           <div className="productef ">
-            {/* <div className='slide_padd'> */}
+            <div className='Slide_width'>
             <div className="slider_container">
               {/* Lottie animation */}
               <div className="animation_image">
@@ -120,7 +111,7 @@ const FlashCard = () => {
                 <p>{flashcard.Contents}</p>
               </div>
             </div>
-            {/* </div> */}
+            </div>
           </div>
         </
         // motion.
