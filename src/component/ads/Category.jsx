@@ -38,7 +38,7 @@ const FlashCard = () => {
     speed: 3000,
     autoplay: true,
     autoplaySpeed: 0, // Set to 0 to disable automatic sliding
-    // slidesToShow: getSlidesToShow(),
+    slidesToShow: getSlidesToShow(),
     slidesToScroll: 1,
     // nextArrow: <NextArrow />,
     // prevArrow: <PrevArrow />,
@@ -48,27 +48,39 @@ const FlashCard = () => {
         breakpoint: 768,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          infinite: true,
+          dots: false,
+          arrows: false
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          infinite: true,
+          dots: false,
+          arrows: false
         }
       }
     ]
   };
 
-  // function getSlidesToShow() {
-  //   const width = window.innerWidth;
-  //   if (width >= 768) {
-  //     return 3;
-  //   } else if (width >= 680) {
-  //     return 2;
-  //   } else {
-  //     return 1;
-  //   }
-  // }
+  function getSlidesToShow() {
+    const width = window.innerWidth;
+    if (width >= 768) {
+      return 3;
+    } else if (width >= 680) {
+      return 2;
+    } else {
+      return 1;
+    }
+  }
 
   // window.addEventListener('resize', () => {
   //   const newSlidesToShow = getSlidesToShow();
