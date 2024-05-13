@@ -57,7 +57,20 @@ const FlashCard = () => {
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 630,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          
+          autoplaySpeed: 1000,
+          infinite: true,
+          dots: false,
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 400,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -67,7 +80,6 @@ const FlashCard = () => {
           infinite: true,
           dots: false,
           arrows: false
-          
         }
       }
     ]
