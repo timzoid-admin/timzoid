@@ -44,11 +44,7 @@ import { Footer } from '../Footer/Footer';
              <img src={heropage} alt='hero '/>
             </div>     
              </div>
-           {/* </div> */}
-            
-            
-           
-            
+   
         </div>
     </section>
     <section>

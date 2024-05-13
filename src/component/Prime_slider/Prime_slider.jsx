@@ -1,6 +1,6 @@
 import React from 'react'
 import FlashCard from './../ads/Category';
-
+ 
 const PrimeSlider = () => {
   return (
     <>

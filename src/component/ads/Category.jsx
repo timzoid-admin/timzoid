@@ -3,8 +3,7 @@ import Slider from 'react-slick';
 import Lottie from 'react-lottie';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { motion } from 'framer-motion';
-
+ 
 const flashcards = [
   { name: 'Enhance customer experience.',  Contents: 'Elevate every interaction and delight your customers with seamless experiences.', animationData: require('../../assests/anime/real.json') },
   { name: 'Enhance brand visibility', Contents: 'Elevate your brands visibility and reach new heights.', animationData: require('../../assests/anime/spanner.json') },

@@ -1,6 +1,5 @@
 import React from "react";
 import ImageSlider from "../ads/Screenshow";
-//  import "../../styles/Mains.css"
 
 export const Banner1 = () => {
   return (
