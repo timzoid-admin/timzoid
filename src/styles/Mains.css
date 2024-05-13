@@ -403,6 +403,7 @@ margin-top: -30px;
 
 .ads_bg {
   width: 100%;
+  overflow: hidden;
   /* height: 50vh; */
   display: flex;
   justify-content: center;
@@ -3125,7 +3126,7 @@ padding-top: 10px;
   }
 
   .contact_us p {
-    font-family: SF Pro;
+    font-family: "SF Pro";
     font-size: 14px;
     font-weight: 274;
     line-height: 24px;
@@ -4645,7 +4646,7 @@ margin: 0 auto;
   }
 
   .contact_us p {
-    font-family: SF Pro;
+    font-family: "SF Pro";
     font-size: 9px;
     font-weight: 274;
     line-height: 24px;
@@ -5147,7 +5148,7 @@ padding: 34.11px 9px 11.7px 9px;
        font-family: "SF Pro";
       font-size: 11px;
       font-weight: 274px;
-      line-height: 21px;
+      line-height: 11px;
       text-align: center;
       color: rgba(35, 31, 32, 1);
 
@@ -5169,7 +5170,7 @@ padding: 34.11px 9px 11.7px 9px;
       width:128px;
       height:110px;
       gap: 32px;
- margin-top: 0;
+ /* margin-top: 0; */
 
     }
 
@@ -5181,28 +5182,26 @@ padding: 34.11px 9px 11.7px 9px;
       font-family:" SF Pro";
       font-size: 11px;
       font-weight: 274;
-      line-height: 20px;
+      line-height: 10px;
       text-align: left;
 
     }
 
     .contact_us {
       width: 205px;
-      /* height: 66px; */
-      gap: 20px;
-      /* opacity: 0px; */
+
       justify-content: center;
 
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 0px;
     }
-
+ 
     .contact_us p {
-      font-family: SF Pro;
+      font-family: "SF Pro";
       font-size: 9px;
       font-weight: 274;
-      line-height: 24px;
+      line-height: 15px;
       text-align: left;
       padding-bottom: 0px;
     }
@@ -6482,7 +6481,7 @@ padding: 34.11px 9px 11.7px 9px;
 
     .bg_img {
       width: 100%;
-      height: 159px;
+      /* height: 159px;s */
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -6552,7 +6551,7 @@ padding: 34.11px 9px 11.7px 9px;
 
     .bg_img {
       width: 100%;
-      height: 142px;
+      height: 100px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -6564,7 +6563,7 @@ padding: 34.11px 9px 11.7px 9px;
 
     .bg_img img {
        width: 100%;
-       height: 180.82px;
+       height: 186.82px;
     }
 
     .banner1_h2 {
@@ -6581,6 +6580,11 @@ padding: 34.11px 9px 11.7px 9px;
       margin-left: 0px;
  left: 0px;
     }
+    .banner2_h2 {
+      overflow: hidden;
+      width: 264px;
+      /* height: 112px; */
+     }
   }
 
   @media(max-width:270px) {
@@ -6661,17 +6665,12 @@ padding: 34.11px 9px 11.7px 9px;
   }
 
   @media(max-width:266px) {
-
-    .bg_img img {
-       width: 100%;
-       height: 184.92px;
-    }
+  .bg_full{
+    height: 500px;
   }
-
-  @media(max-width:260px) {
     .bg_img {
       width: 100%;
-      height: 92px;
+      height: 102px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -6683,8 +6682,31 @@ padding: 34.11px 9px 11.7px 9px;
 
     .bg_img img {
        width: 100%;
-       height: 114.92px;
+       height: 184.92px;
     }
+
+  }
+
+  @media(max-width:260px) {
+    /* .bg_full{
+      height: 600px;
+    }
+    .bg_img {
+      width: 100%;
+      height: 122px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      background-image: url("../assests/bgs.svg");
+      background-position: center;
+      background-size: cover;
+    }
+
+    .bg_img img {
+       width: 100%;
+       height: 134.92px;
+    } */
 
      
 
@@ -6755,9 +6777,7 @@ padding: 34.11px 9px 11.7px 9px;
 
     }
 
-    .bg_full {
-      height: 450px;
-    }
+   
 
     .service_head p {
       width: 100%;
