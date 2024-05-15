@@ -43,10 +43,10 @@ export const Footer = () => {
           <p>© 2024 Timzoid LTD  |  All Right Reserved.</p>
         </div>
         <div className='icons_footer'>
-        <span><FaXTwitter />   </span>
-        <span><FaLinkedin/></span>
-        <span><FaInstagram/></span>
-        <span><FaFacebook/></span>
+        <Link to="https://x.com/timzoid?s=11"><FaXTwitter />   </Link>
+        <Link to="https://www.linkedin.com/company/timzoid/"><FaLinkedin/></Link>
+        <Link to="https://www.instagram.com/timzoid?igsh=YWJ0eTg4czgyZ3Fv"><FaInstagram/></Link>
+        <Link to="https://www.facebook.com/share/Q32zkATm7qRWMLWq/?mibextid=qi2Omg"><FaFacebook/></Link>
       </div>
       </div>
       

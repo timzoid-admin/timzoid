@@ -1138,11 +1138,13 @@ overflow: hidden;
   gap: 10px;
 }
 
-.icons_footer span {
+.icons_footer a {
   width: 29.8px;
   height: 29.8px;
   padding: 7.45px;
   gap: 0px;
+  color: black;
+  cursor: pointer;
   border-radius: 50px;
   /* opacity: 0px; */
   background: rgba(218, 242, 252, 1);
@@ -3448,7 +3450,7 @@ padding-top: 10px;
     gap: 7px;
   }
 
-  .icons_footer span {
+  .icons_footer a {
     width: 24.8px;
     height: 21.8px;
     padding: 7.45px;
@@ -5420,7 +5422,7 @@ padding: 34.11px 9px 11.7px 9px;
       gap: 7px;
     }
 
-    .icons_footer span {
+    .icons_footer a {
       width: 15.8px;
       height: 15.8px;
       padding: 3.45px;
